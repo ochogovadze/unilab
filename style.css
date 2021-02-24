@@ -33,7 +33,7 @@ nav .Mainmenu li a:hover {
     font-size: 13px;
     cursor: pointer;
 }
-@media(max-width: 375px){
+@media(max-width: 800px){
     nav .Mainmenu {
         height: 100vh;
         position: fixed;
