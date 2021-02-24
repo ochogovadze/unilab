@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+}
+nav {
+    background-color:#F6F8F9 ;
+    display: flex;
+    justify-content: space-between;
+}
+nav .mainmanu {
+    display: flex;
+    list-style: none;
+}
+nav .mainmanu li a {
+    display: inline-block;
+    padding:14pc;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #F6F8F9;
+    font: size 11;
+}
