@@ -67,6 +67,9 @@ nav .Mainmenu .closemenu , .icons i {
       margin-bottom: 10px;
       font-size:24px;
   }
+  .width-all-1 {
+      width: 100%;
+  }
   .text-p {
       width: 529px;
   }
@@ -89,12 +92,12 @@ nav .Mainmenu .closemenu , .icons i {
   }
   .full-block-1 {
     display: flex;
-    width:1440px;
-    height: 600px;
+    max-width:1440px;
+    width:100%;
     flex-wrap: wrap;
     
 }
-  .container-2 {
+  .conteiner-2 {
    width: 600px;
    height: 600px;
    display: flex;
@@ -102,18 +105,35 @@ nav .Mainmenu .closemenu , .icons i {
    position: relative;
 
   }
-  .container-2 span {
+  .conteiner-2 span {
     position: absolute;
     background:#A6ADB4;
-    height:2px;
-    width: 400px;
+    height:3px;
+    width: 300px;
 }
 .conteiner-2-block {
-    padding-top: 30px;
+    max-width: 380px;
+    width: 100%;
+    margin: 0 auto;
     
 }
+.conteiner-2-title {
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.h-simagle {
+    margin-bottom: 40px;
+}
+.h-red {
+    color: #FA6980;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
 .width-all {
-    width: 100%;
+    margin-top: 20px;
+    margin-left: 60px;
+    
+
 }
 
 
@@ -122,7 +142,7 @@ nav .Mainmenu .closemenu , .icons i {
 .conteiner-s2 {
     max-width:1160px;
     width: 100%;
-    height: 410px;
+   
     margin:  0 auto;
 }
 .box-wraper {
@@ -133,8 +153,9 @@ nav .Mainmenu .closemenu , .icons i {
 
 }
 .small-box{
-    width: 360px;
-    height: 180px;
+    max-width: 360px;
+    width: 100%;
+   
     flex-wrap: wrap;
     margin-left: 20px;
 }
@@ -152,21 +173,30 @@ nav .Mainmenu .closemenu , .icons i {
 .con2-h {
     padding: 5px;
 }
-/*მეორე სექცია */
-
-.section-3-h3 {
-   
+.p-color {
+    color: #A6ADB4;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
+/*მესამე სექცია */
+
+
 .conteiner-3 {
     display: flex;
     max-width: 1160px;
     width: 100%;
     margin: 0 auto;
+    position: relative;
+    
 
 }
+.section-3-h3 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
 .conteiner-3-box-1{
-    width: 760px;
-    height: 900px;
+    max-width: 766px;
+    width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-right: 40px;
@@ -185,4 +215,42 @@ nav .Mainmenu .closemenu , .icons i {
     display: flex;
     justify-content: center;
     align-items: center;
+    ;
+}
+.h3-block {
+    
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+/*ფუტერი */
+
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+   
+    
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin:0 auto;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    max-width: 378px;
+    width: 100%;
+    
+}
+.ul-list {
+    display: flex;
+    flex-direction:column;
+
+        
 }
