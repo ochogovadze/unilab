@@ -1,0 +1,24 @@
+{
+  "name": "unilab",
+  "version": "1.0.0",
+  "description": "unilab project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ochogovadze/unilab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ochogovadze/unilab/issues"
+  },
+  "homepage": "https://github.com/ochogovadze/unilab#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}

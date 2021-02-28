@@ -1,0 +1,39 @@
+@media(max-width: 800px){
+    nav .Mainmenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: top 1s ease;
+        display: none;
+        
+    }
+    nav .Mainmenu .closemenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav .openmenu {
+        display: block;
+    }
+    nav .Mainmenu li a:hover {
+        bottom: none;
+        color: rgb(225, 123, 0);
+        font-size: 1.6rem;
+    }
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+}
+@media(max-width:800px){
+    .conteiner .conteiner2 {
+     flex-wrap: wrap;
+    } 
+}
