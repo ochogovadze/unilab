@@ -227,30 +227,58 @@ nav .Mainmenu .closemenu , .icons i {
 
 
 .footer {
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
+    background-color: #A6ADB4;
+
     
    
     
     
 }
 .container {
+    max-width: 1160px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    max-width: 1160px;
     margin:0 auto;
+    flex-wrap: wrap;
 }
 .list{
     display: flex;
     justify-content: space-around;
     max-width: 378px;
     width: 100%;
-    
+    color: #CBD0D3;
 }
 .ul-list {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    margin: 0 auto;
+    color: #CBD0D3;
+    
+}
+.mail {
+    display: flex;
+    flex-direction: column;
+    columns: #CBD0D3;
+}
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    color: #CBD0D3;
+    
+    
+}
+/*მეორე გვერდი */
 
-        
+
+.conteiner-page-2 {
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 1160px;
+    width: 100%;
+}
+.conteiner-block-2 {
+    max-width: 580px;
+    width: 100%;
+    margin: 0 auto;
 }
